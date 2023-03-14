@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(93, 231, 213);
+    height: 10%;
+}
+
+.main {
+    height: 75%;
+    display: flex;
+}
+.navigation {
+    height: 100%;
+    width: 20%;
+    background-color: orange;
+}
+.article {
+    height: 100%;
+    width: 50%;
+    background-color: yellowgreen;
+}
+.aside {
+    height: 100%;
+    width: 30%;
+    background-color: yellow;
+}
+
+.footer {
+    background-color: rgb(64, 173, 159);
+    height: 15%;
+}
+
+.text {
+    padding: 10px;
+}
+
+div {
+    display: flex;
+}
